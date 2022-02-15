@@ -17,7 +17,7 @@ pipeline {
         }
         stage('Run') {
             steps {
-                echo 'Testing the application...'
+                echo 'Running the application...'
                 sh 'go run main.go'
             }
         }

@@ -2,7 +2,7 @@
 
 pipeline {
     agent {
-        "node-1" {
+        docker {
             image 'golang:1.17.7-alpine'
             args '-u root'
         }
